@@ -4,6 +4,7 @@ phases:
     install:
         commands:
             - echo "installing something"
+            - grep -Fq "Heartly" index.html
     pre_build:
         commands: 
             - echo "we are in the pre build phase"
